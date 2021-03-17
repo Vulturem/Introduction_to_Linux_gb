@@ -1,0 +1,7 @@
+    1  touch share/file_dev3
+    2  echo "test from dev3 to dev1" >> share/file_dev1
+    3  chmod g+w share/file_dev1
+    4  sudo chmod g+w share/file_dev1
+    5  ls -l share/
+    6  echo "test from dev3 to dev1" >> share/file_dev1
+    7  cat share/file_dev1

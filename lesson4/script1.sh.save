@@ -1,0 +1,5 @@
+#!/bin/bash
+file= "~/lesson4"
+man sed | tr [:lower:] [:upper:] > $file/file2
+sed' > file3
+

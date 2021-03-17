@@ -1,0 +1,13 @@
+итого 4
+-rw-rw-r-- 1 dev1 developer 23 фев 25 14:15 file_dev1
+-rw-r--r-- 1 dev2 developer  0 фев 25 14:12 file_dev2
+-rw-r--r-- 1 dev3 developer  0 фев 25 14:13 file_dev3
+-rw-r--r-- 1 dev2 developer  0 фев 25 14:27 share_dir
+------------------
+итого 12
+-rw-rw-r-- 1 dev1 developer  23 фев 25 14:15 file_dev1
+-rw-r--r-- 1 dev2 developer   0 фев 25 14:12 file_dev2
+-rw-rw-r-- 1 dev3 developer  36 фев 25 14:30 file_dev3
+-rw-r--r-- 1 dev2 developer 260 фев 25 14:31 share_dir
+
+

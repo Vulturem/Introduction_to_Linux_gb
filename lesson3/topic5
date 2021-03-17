@@ -1,0 +1,29 @@
+dev2@seashell:/home/phalcon/git/lesson3/share/share_folder
+$ ls -l ../
+итого 16
+-rw-rw-r-- 1 dev1 developer   23 фев 25 14:15 file_dev1
+-rw-r--r-- 1 dev2 developer    0 фев 25 14:12 file_dev2
+-rw-rw-r-- 1 dev3 developer   36 фев 25 14:30 file_dev3
+-rw-r--r-- 1 dev2 developer  508 фев 25 14:33 share_dir
+drwxrwxr-x 2 dev2 developer 4096 фев 25 14:38 share_folder
+dev2@seashell:/home/phalcon/git/lesson3/share/share_folder
+$ chmod g-w -R ../share_folder/
+dev2@seashell:/home/phalcon/git/lesson3/share/share_folder
+$ ls -l
+итого 0
+-rw-r--r-- 1 dev2 developer 0 фев 25 14:38 dev2
+dev2@seashell:/home/phalcon/git/lesson3/share/share_folder
+$ exit
+exit
+dev1@seashell:/home/phalcon/git/lesson3/share/share_folder
+$ ls -l
+итого 0
+-rw-r--r-- 1 dev2 developer 0 фев 25 14:38 dev2
+dev1@seashell:/home/phalcon/git/lesson3/share/share_folder
+$ rm dev2
+rm: удалить защищенный от записи пустой обычный файл 'dev2'? y
+rm: невозможно удалить 'dev2': Отказано в доступе
+dev1@seashell:/home/phalcon/git/lesson3/share/share_folder
+$ cat dev2
+some text
+

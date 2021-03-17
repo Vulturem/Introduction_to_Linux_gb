@@ -1,0 +1,25 @@
+dev1@seashell:/home/phalcon/git/lesson3
+$ ls -l
+итого 52
+-rw-r--r-- 1 phalcon phalcon   15502 фев 25 13:01 file1
+-rw-r--r-- 1 phalcon phalcon   15502 фев 25 13:25 file2
+-rw-r--r-- 1 dev3    developer   259 фев 25 14:26 history_dev3
+drwxrwxr-x 3 phalcon developer  4096 фев 25 14:34 share
+-rw-r--r-- 1 phalcon phalcon     524 фев 25 14:06 topic3
+-rw-r--r-- 1 dev1    developer  1145 фев 25 14:43 topic5
+drwx-w-r-x 2 dev1    developer  4096 фев 25 14:47 topic6
+dev1@seashell:/home/phalcon/git/lesson3
+$ ls -l topic6/invisible_file 
+-rw-rw-r-- 1 dev2 developer 29 фев 25 14:52 topic6/invisible_file
+dev1@seashell:/home/phalcon/git/lesson3
+$ sudo chmod g+x -R topic6 
+dev1@seashell:/home/phalcon/git/lesson3
+$ sudo su dev3
+dev3@seashell:/home/phalcon/git/lesson3
+$ ls -l topic6/
+ls: невозможно открыть каталог 'topic6/': Отказано в доступе
+dev3@seashell:/home/phalcon/git/lesson3
+$ cat topic6/invisible_file
+text from dev2
+text rom dev1
+

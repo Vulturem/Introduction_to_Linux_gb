@@ -1,0 +1,15 @@
+lp:x:7:phalcon,dev1,dev2,dev3
+dialout:x:20:phalcon,dev1,dev2,dev3
+cdrom:x:24:phalcon,dev1,dev2,dev3
+floppy:x:25:phalcon,dev1,dev2,dev3
+sudo:x:27:phalcon,dev1,dev2,dev3
+audio:x:29:pulse,phalcon,dev1,dev2,dev3
+dip:x:30:phalcon,dev1,dev2,dev3
+video:x:44:phalcon,dev1,dev2,dev3
+plugdev:x:46:phalcon,dev1,dev2,dev3
+users:x:100:phalcon,dev1,dev2,dev3
+input:x:105:dev1,dev2,dev3
+netdev:x:109:phalcon,dev1,dev2,dev3
+lpadmin:x:111:phalcon,dev1,dev2,dev3
+scanner:x:118:saned,phalcon,dev1,dev2,dev3
+vboxsf:x:125:phalcon,dev1,dev2,dev3
